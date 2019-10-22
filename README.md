@@ -12,6 +12,8 @@ I modified the chat-bot from a generic chat-bot to a home-sitter for kids/teens.
 
 From a technical standpoint, beyond content creation, the chat-bot utilises similar if-else conditional and input based features.
 
+Link to the code for the chatbot is here(https://github.com/ankit-health-tech/IDD-Fa19-Lab6/blob/master/chatbot.js)
+
 
 ## Record someone trying out your ChatBot
 
