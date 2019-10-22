@@ -61,38 +61,38 @@ function bot(data, socket, questionNum) {
     question = 'So what you upto at this late hour? Are you heading out?'; // load next question
   } 
   else if (questionNum == 2) {
-    if (input.toLowerCase() === 'no' ||input === 0){
+    if (input.toLowerCase() === 'no'||input === 0){
       answer = 'Perfect! Now head back upstairs and aunty will make her famous chicken soup for you! Yum Yum!';
       waitTime = 5000;
       question = 'Do you have to go to school tomorrow?';
-    }
-    else if (input.toLowerCase === 'yes' || input ===1){
+      }
+    else {
       answer = 'Oh child! this late in the night';
       waitTime = 5000;
       question = 'Do you have to go to school tomorrow?';
-    } 
+      } 
   } 
   else if (questionNum == 3) {
-    if (input.toLowerCase() === 'no' ||input === 0){
+    if (input.toLowerCase() === 'no'||input === 0){
       answer = 'Gosh! you would think with the amount you are paying they would atleast teach something!';
       waitTime = 5000;
-      question = 'What time do you have to go?';
-    }
-    else if (input.toLowerCase === 'yes' || input ===1){
+      question = 'What time do you have to be out tomorrow then?';
+      }
+    else if (input.toLowerCase === 'yes'|| input ===1){
       answer = 'Ok, make sure you have done your readings!';
       waitTime = 5000;
       question = 'What time do you have to go?';
-    } 
+      } 
   } 
   else if (questionNum == 4) {
     answer = 'Sounds good! I will wake you up 2 hours before ' + input + '!';
     waitTime = 5000;
     question = 'Whats your friends name? The one who picks you up for school in the morning';
   }
-  else if (questionNum == 4) {
+  else {
     answer = 'Tell ' + input + ', that i am house-sitting for your mom and dad, and that he should drop his contact details on the kitchen counter on his way out';
-    waitTime = 5000;
-    question = '';
+    waitTime = 50000;
+ 
   }
  /// We take the changed data and distribute it across the required objects.
   socket.emit('answer', answer);
