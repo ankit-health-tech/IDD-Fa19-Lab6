@@ -17,7 +17,7 @@ From a technical standpoint, beyond content creation, the chat-bot utilises simi
 
 **Using a phone or other video device, record someone trying out your ChatBot. Upload that video to this repository and link to it here!**
 
-Link to the Video is here: Link()
+Link to the Video is here: Link(https://i.imgur.com/AXuG3V7.mp4)
 
 ---
 Acnkowledgement
